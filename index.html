@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <style>
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+.header {
+      background: rgba(204, 204, 204, 0.65);
+      font-family: 'ZCOOL KuaiLe', cursive;
+      text-align: center;
+      font-size: 1.5em;
+      padding: 20px;
+      border-style: solid;
+      border-color: #00000066;
+      border-width: 3px;
+      border-radius: 20px;     
+}    
+     /* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(29, 26, 26, 0.4);
+  border-style: solid;
+  border-color: rgb(201, 147, 98, 0.4);
+  border-width: 3px;
+  border-radius: 20px
+}
+
+/* Navbar links */
+.topnav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.topnav a {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #c99362;
+  color: black;
+  transform: scale(1.6);
+  transition: all .4s ease-in-out;
+  border-color: rgb(201, 147, 98, 0.4);
+  border-width: 3px;
+  border-radius: 20px
+}
+
+    body {
+      background-image: url(asd.jpeg);
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  .paragraph {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 0.6fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 2em;
+    padding: 1em;
+   
+    }
+  .paragraph > div{
+    align-items: center;
+    border-radius: 2em;
+    background-color: rgba(204, 204, 204, 0.8)
+  }
+  .paragraph > div:nth-child(odd){
+    background: #c99462b7;
+  }
+  .paragraph > div > h2{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+  }
+    p {
+     color: black;
+     font-size: 18px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: justify;
+     padding: 0.5em;
+   }
+  .nyujtott{
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
+   </style>
+  </head>
+  
+<!-- INNENTŐL KEZDŐDIK A HTML RÉSZ, EZ ELŐTT A .CSS FILEBAN LENNI AKARÓ STYLE KÓD VAN-->
+  
+<body>
+    <div class="header">
+      <h1>MikT Guitar</h1>
+    </div>
+   
+    <div class="topnav">
+      <div><a href="#">Home</a></div>
+      <div><a href="#">Bio</a></div>
+      <div><a href="#">Covers</a></div>
+      <div><a href="#">Lessons</a></div>
+      <div><a href="#">Gear</a></div>
+    </div>  
+
+    <br>
+    
+    <div class="paragraph">
+      <div>
+        <h2>Wisdom1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate totam iusto, a illum dicta repellat magni odit, earum ipsa voluptates error minima, dolor mollitia ex ducimus tempora officia sapiente unde eius! Nulla autem esse sapiente amet, commodi laborum dolore sunt laudantium impedit voluptate quo quia vero ipsam accusantium asperiores repellendus illo consequuntur. Deleniti iusto sunt pariatur placeat optio neque saepe?
+        </p>
+      </div>
+      
+      <div>
+        <h2>Wisdom2</h2>
+        <p>Some text here</p>
+      </div>
+    
+      <div class="nyujtott">
+        <h2>nyujtott3</h2>
+        <p>Some text here</p>
+      </div>
+      <div>
+        <h2>Wisdom4</h2>
+        <p>Some text here</p>
+      </div>
+      <div>
+        <h2>Wisdom5</h2>
+        <p>Some text here</p>
+      </div>
+      <div>
+        <h2></h2>
+        <p></p>
+      </div>
+  </div>
+  
+  </body>
+</html>
+    
